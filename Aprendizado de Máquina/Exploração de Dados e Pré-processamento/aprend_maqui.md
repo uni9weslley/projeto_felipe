@@ -59,7 +59,7 @@ data.sort_values(by=['Data da fatura'], inplace=True)
 
 ```
 
-**1. Verificando a matriz confusão:**
+**3. Verificando a matriz confusão:**
 
 ```phyton
 # Separar caracteristicas e alvo
