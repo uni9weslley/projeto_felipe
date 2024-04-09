@@ -19,25 +19,25 @@ Os serviços que a empresa oferecerá e as tecnologias que serão utilizadas:
 Equipe envolvida:
 
 - Naira Alves Ferreira Silva
-Ra: 2223200384
+   -Ra: 2223200384
 
 - Weslley de Mesquita Lopes
-Ra: 2223203032
+   -Ra: 2223203032
 
 - Paulo Hicaro Silva Nunes Amorim
-Ra: 2223202942
+   -Ra: 2223202942
 
 - Ielma Martins dos Santos
-Ra: 2223204028
+   -Ra: 2223204028
 
 - Gabrielle Uchoa de Castro Moreira 
-Ra: 2223203550
+   -Ra: 2223203550
 
 - Gabriel Sampaio
-Ra: 2323202259
+   -Ra: 2323202259
 
 - Cleyton dos Santos Costa 
-Ra: 2222103392
+   -Ra: 2222103392
 
 - Marcela Siana Silva 
-Ra: 2222103070
+   -Ra: 2222103070
