@@ -1,7 +1,7 @@
 # Controle de Acesso
 
 - Tag ou cartão de proximidade
--  Leitura de impressão digital
+- Leitura de impressão digital
 - Leitura facial e de Íris
 - Sistema de acesso por senha 
 - Controle de acesso semiautomático
@@ -18,7 +18,6 @@ Também reduz o risco de exfiltração de dados pelos funcionários e mantém as
 na web afastadas. Em vez de gerenciar permissões manualmente, a maioria das organizações 
 voltadas para a segurança recorrem a soluções de gerenciamento de identidade e acesso para 
 implementar políticas de controle de acesso.
-
 
 A ISO 27000 é um conjunto de certificações de segurança da informação e proteção de dados 
 para empresas e órgãos públicos. Elas servem como base para a criação de um Sistema de 
