@@ -41,3 +41,6 @@ Equipe envolvida:
 
 - Marcela Siana Silva 
   - Ra: 2222103070
+
+- Gabriel Ferreira
+  - 2222106567
