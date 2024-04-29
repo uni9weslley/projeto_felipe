@@ -22,3 +22,5 @@ Pedido - (id_Pedido, Numero_Pedido, status, valor, data, id_Produtos)
 Cliente -  (id_Cliente, Cliente_Nome, email, senha, CPF, telefone, endereco, id-desconto, id_pedido)
 
 ## Relacionamentos:
+
+![Relacionamentos](https://github.com/uni9weslley/projeto_felipe/blob/main/Modelagem%20de%20dados/conceitual.drawio.png)
