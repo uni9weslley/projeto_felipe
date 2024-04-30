@@ -25,4 +25,4 @@ Cliente -  (id_Cliente, Cliente_Nome, email, senha, CPF, telefone, endereco, id_
 
 ## Relacionamentos:
 
-![Relacionamentos]()
+![Relacionamentos](https://github.com/uni9weslley/projeto_felipe/blob/main/Modelagem%20de%20dados/conceitual1.drawio.png)
