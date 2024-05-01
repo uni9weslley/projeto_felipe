@@ -1,7 +1,7 @@
 # Abaixo listamos as principais entidades, atributos e relacionamentos do banco de dados de nossa loja
 ## Entidades e atributos:
 
-Produtos - (id_Produtos, Produto_Nome, quantidade, valor, id_Fornecedor, imagem, id_Avaliacao)
+Produtos - (id_Produtos, Produto_Nome, quantidade, custo, preco, id_Fornecedor, imagem, id_Avaliacao)
 
 Categoria - (id_Categoria, descricao)
 
