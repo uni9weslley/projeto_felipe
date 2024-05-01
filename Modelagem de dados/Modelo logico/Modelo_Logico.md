@@ -2,7 +2,7 @@
 
 ## Abaixo as entidades e seuss respectivos atributos.
 
-Produtos - (id_Produtos, Produto_Nome, quantidade, valor, id_Fornecedor, imagem, id_Avaliacao)
+Produtos - (id_Produtos, Produto_Nome, quantidade, custo, preco, id_Fornecedor, imagem, id_Avaliacao)
 
 Categoria - (id_Categoria, descricao)
 
