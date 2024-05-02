@@ -99,6 +99,12 @@ print("Precisão:", precision)
 print("Recall:", recall)
 print("F1-score:", f1)
 
+# resultado das somas.
+Acurácia: 0.33716337522441653
+Precisão: 0.33756408412094596
+Recall: 0.33716337522441653
+F1-score: 0.3303831490037525
+
 # plotar a matriz confusão
 cm = confusion_matrix(y_val, y_pred)
 plt.figure(figsize=(8, 6))
@@ -111,76 +117,7 @@ plt.show()
 
 **Grafico gerado pela matriz confusão:**
 
-![img](/Aprendizado%20de%20Máquina/Exploração%20de%20Dados%20e%20Pré-processamento/matriz_confusao.jpg)
+![img](/Aprendizado%20de%20Máquina/1.Exploração%20de%20Dados%20e%20Pré-processamento/matriz_confusao.jpg)
 
 Esse gráfico mostra o desempenho de compra de clientes durante um período.
 
-
-**Esse é o codigo completo em phyton.**
-```
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-data = pd.read_csv("/content/vendas-por-fatura.csv")
-
-data = data.dropna(subset=["ID Cliente"])
-
-data.isnull().values.any()
-
-data.drop_duplicates(inplace=True)
-data.shape
-
-devolucao = data['N° da fatura'].str.startswith('C')
-data[devolucao].shape
-
-data.drop(data[devolucao].index, inplace=True)
-
-data["Data da fatura"] = pd.to_datetime(data["Data da fatura"])
-
-data['Valor'] = data['Valor'].str.replace(",", ".")
-
-data['Valor'] = pd.to_numeric(data['Valor'])
-
-data['Ano mes'] = data['Data da fatura'].dt.to_period('M')
-
-data.sort_values(by=['Data da fatura'], inplace=True)
-
-X = data.drop(["Data da fatura", "País", "ID Cliente", "Ano mes"], axis=1)  
-y = data["ID Cliente"]  
-
-y = pd.cut(y, bins=3, labels=['baixo', 'médio', 'alto'])
-
-scaler = StandardScaler()
-X_scaled = scaler.fit_transform(X)
-
-X_train, X_val, y_train, y_val = train_test_split(X_scaled, y, test_size=0.3, random_state=42)
-
-knn_cls = KNeighborsClassifier(n_neighbors=5)
-
-knn_cls.fit(X_train, y_train)
-
-y_pred = knn_cls.predict(X_val)
-
-accuracy = accuracy_score(y_val, y_pred)
-precision = precision_score(y_val, y_pred, average='weighted', zero_division='warn')
-recall = recall_score(y_val, y_pred, average='weighted', zero_division='warn')
-f1 = f1_score(y_val, y_pred, average='weighted', zero_division='warn')
-
-print("Acurácia:", accuracy)
-print("Precisão:", precision)
-print("Recall:", recall)
-print("F1-score:", f1)
-
-cm = confusion_matrix(y_val, y_pred)
-plt.figure(figsize=(8, 6))
-sns.heatmap(cm, annot=True, fmt="d", cmap="Blues", cbar=False)
-plt.xlabel('Predicted labels')
-plt.ylabel('True labels')
-plt.title('Confusion Matrix')
-plt.show()
-```
