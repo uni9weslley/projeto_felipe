@@ -2,7 +2,7 @@
 
 ### O "tipo" listado abaixo foi usado como referência o SQL
 
-## - Produtos
+## - Produto
 
 ![](https://github.com/uni9weslley/projeto_felipe/blob/main/Modelagem%20de%20dados/Simulação%20de%20cadastro/Produto.png)
 
