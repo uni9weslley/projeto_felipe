@@ -24,4 +24,4 @@ Pedido - (id_Pedido, Numero_Pedido, status, valor, data, id_Produto)
 
 Cliente - (id_Cliente, Cliente_Nome, email, senha, CPF, telefone, endereco, id_Desconto, id_Pedido)
 
-![Modelo Logico](https://github.com/uni9weslley/projeto_felipe/blob/main/Modelagem%20de%20dados/Modelo%20conceitual/conceitual2.drawio.png)
+![Modelo Logico](https://github.com/uni9weslley/projeto_felipe/blob/main/Modelagem%20de%20dados/Modelo%20logico/logica.drawio.png)
