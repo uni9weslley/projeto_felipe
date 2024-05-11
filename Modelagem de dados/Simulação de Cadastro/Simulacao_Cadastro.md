@@ -26,20 +26,20 @@
 
 ## - Venda_Produtos
 
-![](https://github.com/uni9weslley/projeto_felipe/blob/main/Modelagem%20de%20dados/Dicionário%20de%20dados/Venda_produto.png)
+![](https://github.com/uni9weslley/projeto_felipe/blob/main/Modelagem%20de%20dados/Simulação%20de%20Cadastro/venda_produto.png)
 
 ## - Desconto
 
-![](https://github.com/uni9weslley/projeto_felipe/blob/main/Modelagem%20de%20dados/Dicionário%20de%20dados/Desconto.png)
+![](https://github.com/uni9weslley/projeto_felipe/blob/main/Modelagem%20de%20dados/Simulação%20de%20Cadastro/desconto.png)
 
 ## - Venda
 
-![](https://github.com/uni9weslley/projeto_felipe/blob/main/Modelagem%20de%20dados/Dicionário%20de%20dados/Venda.png)
+![](https://github.com/uni9weslley/projeto_felipe/blob/main/Modelagem%20de%20dados/Simulação%20de%20Cadastro/venda.png)
 
 ## - Pedido
 
-![](https://github.com/uni9weslley/projeto_felipe/blob/main/Modelagem%20de%20dados/Dicionário%20de%20dados/Pedido.png)
+![](https://github.com/uni9weslley/projeto_felipe/blob/main/Modelagem%20de%20dados/Simulação%20de%20Cadastro/pedido.png)
 
 ## - Cliente
 
-![](https://github.com/uni9weslley/projeto_felipe/blob/main/Modelagem%20de%20dados/Dicionário%20de%20dados/Cliente.png)
+![](https://github.com/uni9weslley/projeto_felipe/blob/main/Modelagem%20de%20dados/Simulação%20de%20Cadastro/cliente.png)
