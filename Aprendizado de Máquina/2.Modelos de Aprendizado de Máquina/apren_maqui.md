@@ -1,7 +1,7 @@
 # Implementação de Modelos de Aprendizado de Máquina
 
 ### Escolha de algoritmos de ML adequados ao problema:
-Nesta etapa foi escolhido o algoritimo do  KMeans, paraa verificação de vendas em um determinado periodo. Utilizando os filtros que forasam utilizados na Matriz confusão.  
+Nesta etapa foi escolhido o algoritimo do  KMeans, para verificação de vendas em um determinado periodo. Utilizando os filtros de limpeza que foram utilizados na Matriz confusão.  
 
 **1. importando as bibliotecas utilizadas.**
 ```phyton
@@ -38,14 +38,17 @@ data['cluster'] = kmeans.labels_
 # Visualizando os centros dos clusters
 print("Centros dos Clusters:")
 print(scaler.inverse_transform(kmeans.cluster_centers_))
+````
 
-# Resultado dos centros de clusters.
+**Resultado dos centros de clusters.**
+
 Centros dos Clusters:
+
 [[5.59906978e+05 1.38506283e+04 3.05965948e+02 5.19171920e+02
   2.03293352e-04]
+  
  [5.59072329e+05 1.68616147e+04 2.48808776e+02 4.35815141e+02
   2.00000000e+00]]
-````
 
 **E por fim o grafíco gerado.**
 
