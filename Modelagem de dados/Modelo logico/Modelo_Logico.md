@@ -1,6 +1,6 @@
 # Com base nos dados do modelo conceitual, abaixo temos a representação do modelo lógico do banco de dados do site.
 
-## Abaixo as entidades e seuss respectivos atributos.
+## Abaixo as entidades e seus respectivos atributos.
 
 Produto - (id_Produto, Produto_Nome, quantidade, custo, preco, descricao, id_Fornecedor, id_Avaliacao)
 
