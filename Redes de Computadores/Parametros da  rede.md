@@ -3,6 +3,8 @@
 ## Planta baixa
 ![img](/Redes%20de%20Computadores/planta%20baixa%20do%20escritorio.png)
 
+Planta baixa da "PINGTECH", e seus departamentos separados.
+
 1 Departamentos:
 
 - Vendas

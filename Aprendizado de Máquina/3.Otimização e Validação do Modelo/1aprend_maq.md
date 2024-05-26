@@ -57,7 +57,8 @@ print("R-quadrado (R²):", r2)
 ## Grafíco gerado da previsão
 
 **Grafíco do modelo**
-![img](/Aprendizado%20de%20Máquina/3.Otimização%20e%20Validação%20do%20Modelo/baixados.png)
+
+![img](/Aprendizado%20de%20Máquina/3.Otimização%20e%20Validação%20do%20Modelo/2grafico.png)
 
 Esta grafíco mostra a previsão de vendas de acordo com o valor. 
 
